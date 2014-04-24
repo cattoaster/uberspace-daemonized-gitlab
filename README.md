@@ -3,7 +3,7 @@ uberspace-daemonized-gitlab
 
 Short instruction for (post) GitLab setup (version 6). It helps you to initialize a daemonized GitLab on Uberspace, a popular shared hosting provider. 
 
-All the magic is built into a couple nice bash scripts. They will create an environment for your GitLab setup and enable monitoring using Daemon tools.
+All the magic is built into a couple nice shell scripts. They will create an environment for your GitLab setup and enable monitoring using Daemon tools.
 
 ## Preconditions
 
