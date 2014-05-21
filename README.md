@@ -48,7 +48,7 @@ __EOF__
 # create run script for sidekiq
 # Insert correct path to your gitlab directory
 
-$ cat > ~/bin/unicorn <<__EOF__
+$ cat > ~/bin/sidekiq <<__EOF__
 #!/bin/sh
 export RAILS_ENV="production"
 export GITLAB_PATH="$HOME/__PATH__TO__YOUR__GITLAB__DIRECTORY/gitlabhq"
