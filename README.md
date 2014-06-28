@@ -88,8 +88,8 @@ $ cat <<__EOF__ > ~/etc/run-sidekiq/run
 #!/bin/sh
 
 # These environment variables are sometimes needed by the running daemons
-export USER=higgs
-export HOME=/home/higgs
+export USER=$USER
+export HOME=/home/$USER
 
 # Include the user-specific profile
 . $HOME/.bash_profile
